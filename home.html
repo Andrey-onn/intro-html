@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Главная стронича</title>
+    <style>
+        * {
+            margin: 0;
+            font-family: arial, sans-serif;
+        }
+
+        body {
+            background-color: #252525;
+        }
+
+        header {
+            background-color: #303030;
+            padding: 15px 25px 15px 25px;
+            border-bottom: 3px solid #5f5f5f;
+        }
+
+        .url {
+            color: rgb(170, 170, 170);
+            text-decoration: none;
+            font-size: 1.2em;
+            margin-right: 20px;
+            -webkit-transition: color 0.2s;
+        }
+
+        .url-active {
+            color: rgb(35, 111, 238);
+            text-decoration: none;
+            font-size: 1.2em;
+            margin-right: 20px;
+            -webkit-transition: color 0.2s;
+        }
+
+        .url:hover {
+            color: rgb(66, 132, 243);
+        }
+
+        .text {
+            color: rgb(170, 170, 170);
+            font-size: 1.2em;
+        }
+        div.c {
+            justify-content: space-around;
+            display: flex;
+        }
+        div.c2 {
+            justify-content: space-around;
+            display: flex;
+            width: 95%;
+        }
+
+        article {
+            background-color: #303030;
+            border-radius: 25px;
+            width: 75%;
+            height: 500px;
+            margin-top: 50px;
+            padding: 25px;
+        }
+
+        aside {
+            background-color: #303030;
+            border-radius: 25px;
+            width: 15%;
+            height: 500px;
+            margin-top: 50px;
+            padding: 25px;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <a class="url-active">Главная</a>
+    <a class="url" href="calc/">Калькулятор</a>
+    <a class="url" href="m/calc">Калькулятор мобильный</a>
+</header>
+<div class="c">
+    <div class="c2">
+        <article>
+            <p class="text" style="text-align: center; font-size: 2.5em;">тут что-то будет</p>
+        </article>
+        <aside>
+            <p class="text" style="text-align: center; font-size: 1.5em;">и тут что-то будет</p>
+        </aside>
+    </div>
+</div>
+</body>
+</html>
